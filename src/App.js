@@ -7,10 +7,21 @@ class App extends Component{
   constructor(prompt){
       super(prompt);
 
+    // current state
       this.state = {
         current : "0",
         previous : []
       }
+  }
+
+  reset = () => {
+
+    this.setState({result:0});
+  }
+
+  addToCurrent = () =>{
+
+    this.setState({current:this.state.current + Symbol});
   }
 
   render() {
