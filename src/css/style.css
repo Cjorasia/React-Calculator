@@ -35,3 +35,7 @@ input.result{
     margin-right: 50px;
     float: right;
 }
+
+div.over-flow{
+    text-align: right;
+}
